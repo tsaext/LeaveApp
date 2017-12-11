@@ -1,14 +1,181 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  
+  "publicHolidays": [
+    {
+      "title": "New year",
+      "from": "2017-01-01",
+      "till": "2017-01-01",
+      "Country": {
+        "code": "be",
+        "name": "Belgium"
+      }
+    },
+    {
+      "title": "Easter",
+      "from": "2017-04-16",
+      "till": "2017-04-17",
+      "Country": {
+        "code": "be",
+        "name": "Belgium"
+      }
+    },
+    {
+      "title": "Labour Day",
+      "from": "2017-05-01",
+      "till": "2017-05-01",
+      "Country": {
+        "code": "be",
+        "name": "Belgium"
+      }
+    },
+    {
+      "title": "Feast of the Ascension (Jeudi de l'ascension)",
+      "from": "2017-05-25",
+      "till": "2017-05-25",
+      "Country": {
+        "code": "be",
+        "name": "Belgium"
+      }
+    },
+    {
+      "title": "Pentecost/ Lundi de Pentecôte",
+      "from": "2017-06-04",
+      "till": "2017-06-05",
+      "Country": {
+        "code": "be",
+        "name": "Belgium"
+      }
+    },
+    {
+      "title": "National day/Fête nationale",
+      "from": "2017-07-21",
+      "till": "2017-07-21",
+      "Country": {
+        "code": "be",
+        "name": "Belgium"
+      }
+    },
+    {
+      "title": "Assumption of Mary",
+      "from": "2017-08-15",
+      "till": "2017-08-15",
+      "Country": {
+        "code": "be",
+        "name": "Belgium"
+      }
+    },
+    {
+      "title": "All Saints' Day / Toussaint",
+      "from": "2017-11-01",
+      "till": "2017-11-01",
+      "Country": {
+        "code": "be",
+        "name": "Belgium"
+      }
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "LeaveRequestTypes": [
+    {
+      "id": "12ab12ab-34bc34bc34cb-56cd",
+      "title": "Vacation",
+      "Country": {
+        "code": "be",
+        "name": "Belgium"
+      },
+      "maxDays": 20
+    },
+    {
+      "id": "34ab34ab-56bc56bc56cb-78cd",
+      "title": "Sick days",
+      "Country": {
+        "code": "be",
+        "name": "Belgium"
+      },
+      "maxDays": null
+    },
+    {
+      "id": "56ab56ab-78bc78bc78cb-78cd",
+      "title": "Maternity / Paternity holiday",
+      "Country": {
+        "code": "be",
+        "name": "Belgium"
+      },
+      "maxDays": 25
+    },
+    {
+      "id": "90ab90ab-12bc12bc12cb-34cd",
+      "title": "Extra legal holidays",
+      "Country": {
+        "code": "be",
+        "name": "Belgium"
+      },
+      "maxDays": null
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "LeaveRequests": [
+    {
+      "id": "zzz111-eee222-rrr333-ttt444",
+      "startDate": "2017-11-01",
+      "endDate": "2017-11-01",
+      "currentStatus": "Pending",
+      "dateCreated": "2017-10-25",
+      "dateModified": "2017-10-25",
+      "type": {
+        "id": "90ab90ab-12bc12bc12cb-34cd",
+        "title": "Extra legal holidays",
+        "Country": {
+          "code": "be",
+          "name": "Belgium"
+        },
+        "maxDays": null
+      },
+      "nbDays": 1,
+      "message": null,
+      "dateSentToHr": null
+    }
+  ],
+  "statistics": [
+    {
+      "type": {
+        "id": "90ab90ab-12bc12bc12cb-34cd",
+        "title": "Extra legal holidays",
+        "Country": {
+          "code": "be",
+          "name": "Belgium"
+        },
+        "maxDays": null
+      },
+      "maxDaysAllowed": null,
+      "nbDaysUsed": null,
+      "year": 2017
+    },
+    {
+      "type": {
+        "id": "56ab56ab-78bc78bc78cb-78cd",
+        "title": "Maternity / Paternity holiday",
+        "Country": {
+          "code": "be",
+          "name": "Belgium"
+        },
+        "maxDays": 25
+      },
+      "maxDaysAllowed": 15,
+      "nbDaysUsed": 0,
+      "year": 2017
+    },
+    {
+      "type": {
+        "id": "56ab56ab-78bc78bc78cb-78cd",
+        "title": "Maternity / Paternity holiday",
+        "Country": {
+          "code": "be",
+          "name": "Belgium"
+        },
+        "maxDays": 25
+      },
+      "maxDaysAllowed": 15,
+      "nbDaysUsed": 0,
+      "year": 2017
+    }
+  ]
 }
